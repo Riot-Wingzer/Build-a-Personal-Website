@@ -1,0 +1,106 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<nav id="navbar" class="nav">
+			<ul class="nav-list">
+				<li><a href="#welcome-section">About</a></li>
+				<li><a href="#projects">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<section id="welcome-section" class="welcome-sectin">
+			<h1>Riot Wingzer</h1>
+			<p>a software engineer</p>
+		</section>
+
+		<section id="projects" class="project-section">
+			<h2 class="projects-section-header">This is what I've been up to</h2>
+			<div class="projects-grid">
+				<a href="https://youtube.com/@wingzeronline" target="_blank" class="project project-title">
+					<img class="project-image" src="https://www.mtzion.lib.il.us/youtube-logo-new.jpg/@@images/image.jpeg" alt="project">
+					<p class="project-tile">
+					<span class="code"><</span>
+					" Youtube Channel "
+					<span class="code">/></span>
+					</p>
+				</a>
+			</div>
+		</section>
+
+		<section id="contact" class="contact-section">
+			<div class="contact-section-header">
+				<h2>I look forward to meeting you</h2>
+				<p>Let's connect on discord</p>
+			</div>
+			<div class="contact-links">
+				<a id="profile-link" href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-destails">
+					<i class="fab fa-facebook-square">
+						::before
+					</i>
+					" Facebook "
+				</a>
+				<a href="https://github.com/Riot-Wingzer" target="_blank" class="btn contact-details">
+					<i class="fab fa-github">
+						::before
+					</i>
+					" Github "
+				</a>
+			</div>
+		</section>
+		
+		<footer>
+			<p>This has been a fun journey for me to create a website</p>
+			<p> " @ Created for " 
+				<a href="https://www.freecodecamp.com/" target="_blank">
+				"freeCodeCamp "
+				<i class="fab fa-free-code-camp"> 
+					::before 
+				</i>
+				</a>
+			</p>
+
+		</footer>
+			
+		</footer>
+
+	</body>
+
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  box-sizing: border-box;
+}
+@media (max-width: 28.75em) html {
+  font-size: 55%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+** end of undefined **
+
